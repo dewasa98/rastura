@@ -39,11 +39,17 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: rgb(43, 19, 199) !important;
 }
 
 .bg-dark {
-  background-color: #212529 !important;
+  background-color: #34c018 !important;
+}
+
+.bg-blue {
+  background-color: darkgoldenrod;
+  color: white;
+  padding: 10px
 }
 
 .text-faded {
