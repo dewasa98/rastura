@@ -49,12 +49,6 @@ h6 {
   background-color: #ffffff !important;
 }
 
-.bg-blue {
-  background-color: darkgoldenrod;
-  color: white;
-  padding: 10px
-}
-
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
