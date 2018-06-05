@@ -42,10 +42,17 @@ h6 {
   width: 100px
 }
 
+.bg-caro{
+  background-color: aliceblue !important;
+}
+
+}
 .bg-primary {
   background-color: rgb(19, 178, 199) !important;
 }
-
+.bg-news{
+  background-color: aquamarine !important; 
+}
 .bg-dark {
   background-color: #ffffff !important;
 }
