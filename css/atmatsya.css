@@ -9,10 +9,11 @@ body {
 }
 
 hr {
-  max-width: 600px;
+  max-width:50px;
   border-width: 2px;
   border-color: rgb(36, 193, 204);
 }
+
 
 hr.light {
   border-color: #fff;
@@ -40,7 +41,7 @@ a:visited{
 }
 
 table{
-  color : rgb(36, 193, 204)
+  color :rgb(36, 193, 204)
 }
 
 h1,
