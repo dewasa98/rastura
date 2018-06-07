@@ -9,10 +9,11 @@ body {
 }
 
 hr {
-  max-width: 50px;
-  border-width: 3px;
+  max-width:50px;
+  border-width: 2px;
   border-color: rgb(36, 193, 204);
 }
+
 
 hr.light {
   border-color: #fff;
@@ -29,6 +30,20 @@ a:hover {
   color: rgb(36, 193, 204);
 }
 
+a:link{
+  color: rgb(25, 25, 25, 25);
+  text-decoration: none;
+}
+
+a:visited{
+  color: rgb(25, 25, 25, 25);
+  text-decoration: none;
+}
+
+table{
+  color :rgb(36, 193, 204)
+}
+
 h1,
 h2,
 h3,
@@ -37,6 +52,11 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+
+tr, td{
+  padding: 15px;
+}
+
 
 .ays-icon img{
   width: 100px
@@ -50,7 +70,8 @@ h6 {
   background-color: rgb(19, 148, 199) !important;
 }
 .bg-news{
-  background-color: aquamarine !important; 
+  background-color: aquamarine ; 
+  /* color: rgb(255, 255, 255, 255); */
 }
 .bg-dark {
   background-color: #ffffff !important;
