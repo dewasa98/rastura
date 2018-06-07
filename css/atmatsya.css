@@ -9,9 +9,9 @@ body {
 }
 
 hr {
-  max-width: 50px;
-  border-width: 3px;
-  border-color: rgb(255, 123, 0);
+  max-width: 600px;
+  border-width: 2px;
+  border-color: rgb(36, 193, 204);
 }
 
 hr.light {
@@ -19,16 +19,29 @@ hr.light {
 }
 
 a {
-  color: rgb(255, 123, 0);
+  color: rgb(36, 193, 204);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: rgb(255, 123, 0);
+  color: rgb(36, 193, 204);
 }
 
+a:link{
+  color: rgb(25, 25, 25, 25);
+  text-decoration: none;
+}
+
+a:visited{
+  color: rgb(25, 25, 25, 25);
+  text-decoration: none;
+}
+
+table{
+  color : rgb(36, 193, 204)
+}
 
 h1,
 h2,
@@ -39,14 +52,26 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+tr, td{
+  padding: 15px;
+}
+
+
 .ays-icon img{
   width: 100px
 }
 
-.bg-primary {
-  background-color: rgb(199, 85, 19) !important;
+.bg-caro{
+  background-color: rgb(31, 60, 85) !important;
 }
 
+.bg-primary {
+  background-color: rgb(19, 148, 199) !important;
+}
+.bg-news{
+  background-color: aquamarine ; 
+  /* color: rgb(255, 255, 255, 255); */
+}
 .bg-dark {
   background-color: #ffffff !important;
 }
@@ -97,12 +122,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: rgb(255, 123, 0);
+  color: rgb(36, 193, 204);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: rgb(255, 123, 0);
+  color: rgb(36, 193, 204);
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -115,12 +140,12 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: rgb(255, 123, 0);
+  color: rgb(36, 193, 204);
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: rgb(255, 123, 0) !important;
+  color: rgb(36, 193, 204) !important;
   background-color: transparent;
 }
 
@@ -138,7 +163,7 @@ img::-moz-selection {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: rgb(204, 84, 36);
+    color: rgb(36, 170, 204);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
@@ -156,10 +181,10 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: rgb(255, 123, 0);
+    color: rgb(36, 193, 204);
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: rgb(255, 123, 0);
+    color: rgb(36, 193, 204);
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -167,14 +192,14 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: rgb(255, 123, 0);
+    color: rgb(36, 193, 204);
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/kesemek.jpg");
+  background-image: url("../img/homepage.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -239,7 +264,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 170, 64, 0.9);
+  background: rgba(64, 199, 240, 0.9);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -287,7 +312,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: rgb(255, 123, 0) !important;
+  color: rgb(36, 193, 204) !important;
 }
 
 .btn {
@@ -303,13 +328,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: rgb(255, 123, 0);
-  border-color: rgb(255, 123, 0);
+  background-color: rgb(36, 193, 204);
+  border-color: rgb(36, 193, 204);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee9228 !important;
+  background-color: #28a5ee !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
