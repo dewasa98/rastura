@@ -26,9 +26,6 @@ a {
   transition: all 0.2s;
 }
 
-a:hover {
-  color: rgb(36, 193, 204);
-}
 
 a:link{
   color: rgb(25, 25, 25, 25);
@@ -37,7 +34,12 @@ a:link{
 
 a:visited{
   color: rgb(25, 25, 25, 25);
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(36, 193, 204);
+  text-decoration: underline;
 }
 
 table{
