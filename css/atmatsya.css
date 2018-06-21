@@ -9,10 +9,11 @@ body {
 }
 
 hr {
-  max-width: 50px;
-  border-width: 3px;
+  max-width:50px;
+  border-width: 2px;
   border-color: rgb(36, 193, 204);
 }
+
 
 hr.light {
   border-color: #fff;
@@ -29,6 +30,20 @@ a:hover {
   color: rgb(36, 193, 204);
 }
 
+a:link{
+  color: rgb(25, 25, 25, 25);
+  text-decoration: none;
+}
+
+a:visited{
+  color: rgb(25, 25, 25, 25);
+  text-decoration: none;
+}
+
+table{
+  color :rgb(36, 193, 204)
+}
+
 h1,
 h2,
 h3,
@@ -38,27 +53,32 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+tr, td{
+  padding: 15px;
+}
+
+
 .ays-icon img{
   width: 100px
 }
 
 .bg-caro{
-  background-color: aliceblue !important;
+  background-color: rgb(31, 60, 85) !important;
 }
 
-}
 .bg-primary {
-  background-color: rgb(19, 178, 199) !important;
+  background-color: rgb(19, 148, 199) !important;
 }
 .bg-news{
-  background-color: aquamarine !important; 
+  background-color: aquamarine ; 
+  /* color: rgb(255, 255, 255, 255); */
 }
 .bg-dark {
   background-color: #ffffff !important;
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(10, 10, 10, 0.7);
 }
 
 section {
@@ -141,7 +161,7 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(15, 14, 14, 0.7);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: rgb(36, 170, 204);
@@ -151,7 +171,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(20, 19, 19, 0.7);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -180,7 +200,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/homepage.jpg");
+  background-image: url("../img/blank.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
