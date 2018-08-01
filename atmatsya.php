@@ -248,7 +248,7 @@
             <img class="card-img-top" src="img/kesemek.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Gambar 1</h5>
-              <p class="card-text">Some qhe card title and make up the buld's content.</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus risus at sapien rhoncus, nec aliquet nibh lobortis. Pellentesque pellentesque arcu nec leo cursus egestas id sit amet ante.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
@@ -258,7 +258,7 @@
             <img class="card-img-top" src="img/kesemek.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Gambar 2</h5>
-              <p class="card-text">Some quick ethe card's content.</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus risus at sapien rhoncus, nec aliquet nibh lobortis. Pellentesque pellentesque arcu nec leo cursus egestas id sit amet ante.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
@@ -268,7 +268,7 @@
             <img class="card-img-top" src="img/kesemek.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Gambar 3</h5>
-              <p class="card-text">the bulk of the card's content.</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus risus at sapien rhoncus, nec aliquet nibh lobortis. Pellentesque pellentesque arcu nec leo cursus egestas id sit amet ante.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
@@ -281,7 +281,7 @@
             <img class="card-img-top" src="img/kesemek.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Gambar 4</h5>
-              <p class="card-text">Som make up the bulk of the card's content.</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus risus at sapien rhoncus, nec aliquet nibh lobortis. Pellentesque pellentesque arcu nec leo cursus egestas id sit amet ante.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
@@ -291,7 +291,7 @@
             <img class="card-img-top" src="img/kesemek.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Gambar 5</h5>
-              <p class="card-text">contoh deskripsi lorem ipsum dolor et somat.</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus risus at sapien rhoncus, nec aliquet nibh lobortis. Pellentesque pellentesque arcu nec leo cursus egestas id sit amet ante.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
@@ -301,7 +301,7 @@
             <img class="card-img-top" src="img/kesemek.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Gambar 6</h5>
-              <p class="card-text">Proses pembuatan dan pengawetan contohnya deskripsi.</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus risus at sapien rhoncus, nec aliquet nibh lobortis. Pellentesque pellentesque arcu nec leo cursus egestas id sit amet ante.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
