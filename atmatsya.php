@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+  include "config.php";
+?>
 <html lang="en">
 
 <head>
@@ -166,28 +169,30 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <table border="1">
+        <table border='1'>
             <tr>
               <td>
-                <a style="font-size: 30px ">BERITA TERBARU</a>
+                <a style='font-size: 30px '>BERITA TERBARU</a>
               </td>
             </tr>
             <tr>
-              <td colspan="2" padding: 15px>
-                <ul>
-                  <li>
-                    <a href="https://sains.kompas.com/read/2018/06/06/210500423/jarak-bumi-dan-bulan-kian-jauh-ini-efeknya-bagi-waktu"
-                      target="_blank">Jarak Bumi dan Bulan Kian Jauh, Ini Efeknya Bagi Waktu</a>
-                  </li>
-                  <li>
-                    <a href="https://ekonomi.kompas.com/read/2018/06/07/072625526/menteri-perikanan-norwegia-klarifikasi-menteri-susi-untuk-beberapa-isu"
-                      target="_blank">Menteri Perikanan Sosialisasikan Penggunaan Atmatsya kepada Para Nelayan </a>
-                  </li>
-                  <li>
-                    <a href="https://ekonomi.kompas.com/read/2018/06/07/104404926/nielsen-selama-ramadhan-belanja-iklan-meningkat-signifikan"
-                      target="_blank">Rastura: Pembelian Atmatsya Meningkat Selamat Bulan Ramadhan</a>
-                  </li>
-                </ul>
+              <td colspan='2' padding: 15px>
+               <?php
+
+                        $sql = "SELECT * FROM berita";
+                        $query = mysqli_query($db, $sql);
+                        if (!$query) {
+                          printf("Error: %s\n", mysqli_error($db));
+                          exit();
+                      }
+                        while($data = mysqli_fetch_array($query)){
+                echo"<ul>";
+                  echo "<li>
+                    <a href='".$data['link']."'
+                      target='_blank'>".$data['judul']."</a>
+                  </li>";
+                echo"</ul>";
+                        } ?>
               </td>
             </tr>
           </table>
@@ -233,7 +238,7 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <br>
-          <h1>Gallery</h1>
+          <h1>Portofolio</h1>
           <hr>
         </div>
       </div>
