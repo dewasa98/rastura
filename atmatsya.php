@@ -244,11 +244,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
-          <div class="card" style="width: 20rem;">
-          <img class="card-img-top" src="../admin/images/1.jpg" alt="Card image cap" width="200px" height="200px">
-            <div class="card-body">
-            <?php
+      <?php
               $sql = "SELECT * FROM portfolio WHERE id=1";
               $query = mysqli_query($db, $sql);
               if (!$query) {
@@ -256,20 +252,19 @@
                 exit();
               }
               $data = mysqli_fetch_array($query);
+              echo "<div class='col-md-4'>";
+              echo "<div class='card' style='width: 20rem;'>";
+              echo "<img class='card-img-top' src='../admin/images/".$data['gambar']."' width='200px' height='200px'>";
+              echo "<div class='card-body'>";
               echo "<h5 class='card-title'>".$data['judul']."</h5>";
-              echo "<p class='card-text'>".$data['deskripsi']."</p";
-
+              echo "<p class='card-text'>".$data['deskripsi']."</p>";
+            
             ?>
-              <a href="#" class="btn btn-primary"></a>
             </div>
           </div>
         </div>
         <!-- gambar 2 -->
-        <div class="col-md-4">
-          <div class="card" style="width: 20rem;">
-            <img class="card-img-top" src="../admin/images/2.jpg" alt="Card image cap" width="200px" height="200px">
-            <div class="card-body">
-            <?php
+        <?php
               $sql = "SELECT * FROM portfolio WHERE id=2";
               $query = mysqli_query($db, $sql);
               if (!$query) {
@@ -277,20 +272,19 @@
                 exit();
               }
               $data = mysqli_fetch_array($query);
+              echo "<div class='col-md-4'>";
+              echo "<div class='card' style='width: 20rem;'>";
+              echo "<img class='card-img-top' src='../admin/images/".$data['gambar']."' width='200px' height='200px'>";
+              echo "<div class='card-body'>";
               echo "<h5 class='card-title'>".$data['judul']."</h5>";
-              echo "<p class='card-text'>".$data['deskripsi']."</p";
-
+              echo "<p class='card-text'>".$data['deskripsi']."</p>";
+            
             ?>
-              <a href="#" class="btn btn-primary"></a>
             </div>
           </div>
         </div>
         <!-- gambar 3 -->
-        <div class="col-md-4">
-          <div class="card" style="width: 20rem;">
-            <img class="card-img-top" src="../admin/images/3.jpg" alt="Card image cap" width="200px" height="200px">
-            <div class="card-body">
-            <?php
+        <?php
               $sql = "SELECT * FROM portfolio WHERE id=3";
               $query = mysqli_query($db, $sql);
               if (!$query) {
@@ -298,11 +292,14 @@
                 exit();
               }
               $data = mysqli_fetch_array($query);
+              echo "<div class='col-md-4'>";
+              echo "<div class='card' style='width: 20rem;'>";
+              echo "<img class='card-img-top' src='../admin/images/".$data['gambar']."' width='200px' height='200px'>";
+              echo "<div class='card-body'>";
               echo "<h5 class='card-title'>".$data['judul']."</h5>";
-              echo "<p class='card-text'>".$data['deskripsi']."</p";
-
+              echo "<p class='card-text'>".$data['deskripsi']."</p>";
+            
             ?>
-              <a href="#" class="btn btn-primary"></a>
             </div>
           </div>
         </div>
@@ -310,11 +307,7 @@
       <br>
       <div class="row">
       <!-- gambar 4 -->
-        <div class="col-md-4">
-          <div class="card" style="width: 20rem;">
-            <img class="card-img-top" src="../admin/images/4.jpg" alt="Card image cap" width="200px" height="200px"> 
-            <div class="card-body">
-            <?php
+      <?php
               $sql = "SELECT * FROM portfolio WHERE id=4";
               $query = mysqli_query($db, $sql);
               if (!$query) {
@@ -322,21 +315,19 @@
                 exit();
               }
               $data = mysqli_fetch_array($query);
+              echo "<div class='col-md-4'>";
+              echo "<div class='card' style='width: 20rem;'>";
+              echo "<img class='card-img-top' src='../admin/images/".$data['gambar']."' width='200px' height='200px'>";
+              echo "<div class='card-body'>";
               echo "<h5 class='card-title'>".$data['judul']."</h5>";
-              echo "<p class='card-text'>".$data['deskripsi']."</p";
-
+              echo "<p class='card-text'>".$data['deskripsi']."</p>";
+            
             ?>
-
-              <a href="#" class="btn btn-primary"></a>
             </div>
           </div>
         </div>
         <!-- gambar 5 -->
-        <div class="col-md-4">
-          <div class="card" style="width: 20rem;">
-            <img class="card-img-top" src="../admin/images/5.jpg" alt="Card image cap" width="200px" height="200px">
-            <div class="card-body">
-            <?php
+        <?php
               $sql = "SELECT * FROM portfolio WHERE id=5";
               $query = mysqli_query($db, $sql);
               if (!$query) {
@@ -344,12 +335,14 @@
                 exit();
               }
               $data = mysqli_fetch_array($query);
+              echo "<div class='col-md-4'>";
+              echo "<div class='card' style='width: 20rem;'>";
+              echo "<img class='card-img-top' src='../admin/images/".$data['gambar']."' width='200px' height='200px'>";
+              echo "<div class='card-body'>";
               echo "<h5 class='card-title'>".$data['judul']."</h5>";
-              echo "<p class='card-text'>".$data['deskripsi']."</p";
-
-            ?>
+              echo "<p class='card-text'>".$data['deskripsi']."</p>";
             
-              <a href="#" class="btn btn-primary"></a>
+            ?>
             </div>
           </div>
         </div>
@@ -370,22 +363,6 @@
               echo "<p class='card-text'>".$data['deskripsi']."</p>";
             
             ?>
-
-
-            <!-- <?php
-              $sql = "SELECT * FROM portfolio WHERE id=6";
-              $query = mysqli_query($db, $sql);
-              if (!$query) {
-                printf("Error: %s\n", mysqli_error($db));
-                exit();
-              }
-              $data = mysqli_fetch_array($query);
-              echo "<div class='card-body'>";
-              echo "<h5 class='card-title'>".$data['judul']."</h5>";
-              echo "<p class='card-text'>".$data['deskripsi']."</p";
-
-            ?> -->
-
             </div>
           </div>
         </div>
