@@ -52,7 +52,7 @@
             <a class="nav-link js-scroll-trigger" href="#about">Tentang Kami</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#product">panduan</a>
+            <a class="nav-link js-scroll-trigger" href="#berita">Berita</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portofolio</a>
@@ -196,6 +196,7 @@
               </td>
             </tr>
           </table>
+        <iframe width="540" height="360" src="https://www.youtube.com/embed/ddcTkug5UEw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
 
         <div class="col-md-6">
