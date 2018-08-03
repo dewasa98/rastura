@@ -196,7 +196,20 @@
               </td>
             </tr>
           </table>
-        <iframe width="540" height="360" src="https://www.youtube.com/embed/ddcTkug5UEw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          
+          <?php
+
+            $sql = "SELECT * FROM video";
+            $query = mysqli_query($db, $sql);
+            $data = mysqli_fetch_array($query);
+            if (!$query) {
+              printf("Error: %s\n", mysqli_error($db));
+              exit();
+              }
+             
+            echo "<iframe width='540' height='360' src='https://www.youtube.com/embed/".$data['link']."' frameborder='0' allow='autoplay'; encrypted-media' allowfullscreen></iframe>";
+              ?>
+        <!-- <iframe width="540" height="360" src="https://www.youtube.com/embed/'.$data['link'].'" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
         </div>
 
         <div class="col-md-6">
