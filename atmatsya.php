@@ -46,10 +46,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#berita" target="_blank">Berita</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Tentang Kami</a>
+            <a class="nav-link js-scroll-trigger" href="#about">Tentang Atmatsya</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#berita">Berita</a>
